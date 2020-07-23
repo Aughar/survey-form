@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+	font-family: 'Roboto', sans-serif;
+}
+form {
+	background-color: rgba(255, 255, 255, 0.6);
+	max-width: 500px;
+	margin: auto;
+	text-align: left;
+	padding: 5%;
+	border-radius: 1%;
+}
+.bigger {
+	width: 95%;
+	height: 2rem;
+	border-radius: 0.25rem;
+}
+#dropdown {
+	width: 96%;
+	height: 2.5rem;
+}
+#submit {
+	width: 97%;
+	height: 2.5rem;
+	background-color: #37af65;
+}
+#header {
+	/* color: white; */
+}

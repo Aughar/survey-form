@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Formulario</title>
+		<link rel="stylesheet" href="main.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
 	</head>
 	<body>
 		<div id="header">
@@ -23,7 +25,9 @@
 						type="text"
 						name="name"
 						id="name"
+						class="bigger"
 						placeholder="Ingresa tu nombre"
+						required
 					/>
 				</label>
 			</div>
@@ -34,7 +38,9 @@
 						type="email"
 						name="email"
 						id="email"
+						class="bigger"
 						placeholder="Ingresa tu correo electrónico"
+						required
 					/>
 				</label>
 			</div>
@@ -45,16 +51,18 @@
 						type="number"
 						name="number"
 						id="number"
+						class="bigger"
 						min="18"
 						max="60"
-						placeholder="Ingresa tu edad"
+						placeholder="Edad"
+						required
 					/>
 				</label>
 			</div>
 			<div>
 				<p>¿Qué opción mejor representa nuestra relación?</p>
 				<label for="dropdown-label">
-					<select name="dropdown" id="dropdown">
+					<select name="dropdown" id="dropdown" class="bigger">
 						<option value="" disabled selected
 							>Selecciona nuestra relación</option
 						>
@@ -63,6 +71,7 @@
 						<option value="conocido">Conocido</option>
 						<option value="compañero">Compañero de trabajo</option>
 						<option value="desconocido">Desconocido</option>
+						required
 					</select>
 				</label>
 			</div>
@@ -153,16 +162,16 @@
 			</div>
 			<div>
 				<label for="textarea"> ¿Por qué debería importarme tu opinión?</label>
-
 				<textarea
 					name="textarea"
 					id="textarea"
+					class="bigger"
 					cols="30"
 					rows="10"
 					placeholder="Ingresa tu comentario aquí..."
 				></textarea>
 			</div>
-			<button type="button" id="submit">Enviar</button>
+			<button type="button" id="submit" class="bigger">Enviar</button>
 		</form>
 	</body>
 </html>
