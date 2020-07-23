@@ -45,8 +45,8 @@
 						type="number"
 						name="number"
 						id="number"
-						min="13"
-						max="99"
+						min="18"
+						max="60"
 						placeholder="Ingresa tu edad"
 					/>
 				</label>
@@ -67,28 +67,102 @@
 				</label>
 			</div>
 			<div>
-				<input type="radio" id="radio1" name="radio" value="1" />
-				<label for="radio1">1</label>
-				<input type="radio" id="radio2" name="radio" value="2" />
-				<label for="radio2">2</label>
+				<p>¿Qué tanto crees que me importe tu opinión?</p>
+				<div>
+					<input type="radio" id="mucho" name="radio" value="mucho" />
+					<label for="mucho">Mucho </label>
+				</div>
+				<div>
+					<input type="radio" id="algo" name="radio" value="algo" />
+					<label for="algo">Algo </label>
+				</div>
+				<div>
+					<input type="radio" id="nose" name="radio" value="nose" />
+					<label for="nose">
+						No estoy seguro
+					</label>
+				</div>
+				<div>
+					<input type="radio" name="radio" id="poco" value="poco" />
+					<label for="poco">
+						Poco
+					</label>
+				</div>
+				<div>
+					<input type="radio" name="radio" id="nada" value="nada" />
+					<label for="nada">
+						Nada
+					</label>
+				</div>
 			</div>
 			<div>
-				<input type="checkbox" name="checkbox" id="checkbox1" value="1" />
-				<label for="checkbox1">1</label>
-				<input type="checkbox" name="checkbox" id="checkbox2" value="2" />
-				<label for="checkbox2">2</label>
+				<p>¿Sobre qué trata tu opinión?</p>
+				<div>
+					<input
+						type="checkbox"
+						name="checkbox"
+						id="politica"
+						value="politica"
+					/>
+					<label for="politica">Política</label>
+				</div>
+				<div>
+					<input type="checkbox" name="checkbox" id="ciencia" value="ciencia" />
+					<label for="ciencia">Ciencia</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="checkbox"
+						id="tecnologia"
+						value="tecnologia"
+					/>
+					<label for="tecnologia">Tecnología</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="checkbox"
+						id="deportes"
+						value="deportes"
+					/>
+					<label for="deportes">Deportes</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="checkbox"
+						id="entretenimiento"
+						value="entretenimiento"
+					/>
+					<label for="entretenimiento">Entretenimiento</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="checkbox"
+						id="videojuegos"
+						value="videojuegos"
+					/>
+					<label for="videojuegos">Videojuegos</label>
+				</div>
+				<div>
+					<input type="checkbox" name="checkbox" id="Anime" value="Anime" />
+					<label for="Anime">Anime</label>
+				</div>
 			</div>
 			<div>
+				<label for="textarea"> ¿Por qué debería importarme tu opinión?</label>
+
 				<textarea
 					name="textarea"
 					id="textarea"
 					cols="30"
 					rows="10"
-					placeholder="textarea"
+					placeholder="Ingresa tu comentario aquí..."
 				></textarea>
-				<label for="textarea"></label>
 			</div>
-			<input type="button" value="submit" id="submit" />
+			<button type="button" id="submit">Enviar</button>
 		</form>
 	</body>
 </html>
