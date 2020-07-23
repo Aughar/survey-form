@@ -20,37 +20,40 @@
 			</p>
 		</div>
 		<form action="" id="survey-form">
-			<div>
+			<div class="questions">
 				<label for="name" id="name-label">
 					Nombre
 					<input
 						type="text"
 						name="name"
 						id="name"
+						class="inputs"
 						placeholder="Ingresa tu nombre"
 						required
 					/>
 				</label>
 			</div>
-			<div>
+			<div class="questions">
 				<label for="email" id="email-label">
 					Correo electrónico
 					<input
 						type="email"
 						name="email"
 						id="email"
+						class="inputs"
 						placeholder="Ingresa tu correo electrónico"
 						required
 					/>
 				</label>
 			</div>
-			<div>
+			<div class="questions">
 				<label for="number" id="number-label">
 					Edad
 					<input
 						type="number"
 						name="number"
 						id="number"
+						class="inputs"
 						min="18"
 						max="60"
 						placeholder="Edad"
@@ -58,12 +61,12 @@
 					/>
 				</label>
 			</div>
-			<div>
+			<div class="questions">
 				<label for="dropdown-label">
 					¿De las opciones siguientes cual representa mejor como nos
 					relacionamos?
-					<select name="dropdown" id="dropdown">
-						<option value="" disabled selected
+					<select name="dropdown" id="dropdown" class="inputs">
+						<option value="" disabled selected hidden
 							>Selecciona nuestra relación</option
 						>
 						<option value="familiar">Familiar</option>
@@ -75,7 +78,7 @@
 					</select>
 				</label>
 			</div>
-			<div>
+			<div class="questions">
 				<label for="radio"
 					>¿Qué tanto crees que me importe tu opinión?
 					<div>
@@ -106,7 +109,7 @@
 					</div>
 				</label>
 			</div>
-			<div>
+			<div class="questions">
 				<label for="checkbox"
 					>¿Sobre qué trata tu opinión?
 					<div>
@@ -169,12 +172,12 @@
 					</div>
 				</label>
 			</div>
-			<div>
+			<div class="questions">
 				<label for="textarea">¿Por qué debería importarme tu opinión?</label>
 				<textarea
 					name="textarea"
 					id="textarea"
-					cols="30"
+					cols="55"
 					rows="10"
 					placeholder="Ingresa tu comentario aquí..."
 				></textarea>
