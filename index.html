@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1 id="title">
+				¿Me Quieres Dar Tu Opinión?
+			</h1>
+			<p id="description">
+				Si deseas que tome en cuenta tu opinión llena el siguiente formulario.
+			</p>
+		</div>
+
+		<form action="" id="survey-form">
+			<div>
+				<p>Nombre</p>
+				<label for="name" id="name-label">
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Ingresa tu nombre"
+					/>
+				</label>
+			</div>
+			<div>
+				<p>Correo electrónico</p>
+				<label for="email" id="email-label">
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Ingresa tu correo electrónico"
+					/>
+				</label>
+			</div>
+			<div>
+				<p>Edad</p>
+				<label for="number" id="number-label">
+					<input
+						type="number"
+						name="number"
+						id="number"
+						min="13"
+						max="99"
+						placeholder="Ingresa tu edad"
+					/>
+				</label>
+			</div>
+			<div>
+				<p>¿Qué opción mejor representa nuestra relación?</p>
+				<label for="dropdown-label">
+					<select name="dropdown" id="dropdown">
+						<option value="" disabled selected
+							>Selecciona nuestra relación</option
+						>
+						<option value="familiar">Familiar</option>
+						<option value="amigo">Amigo</option>
+						<option value="conocido">Conocido</option>
+						<option value="compañero">Compañero de trabajo</option>
+						<option value="desconocido">Desconocido</option>
+					</select>
+				</label>
+			</div>
+			<div>
+				<input type="radio" id="radio1" name="radio" value="1" />
+				<label for="radio1">1</label>
+				<input type="radio" id="radio2" name="radio" value="2" />
+				<label for="radio2">2</label>
+			</div>
+			<div>
+				<input type="checkbox" name="checkbox" id="checkbox1" value="1" />
+				<label for="checkbox1">1</label>
+				<input type="checkbox" name="checkbox" id="checkbox2" value="2" />
+				<label for="checkbox2">2</label>
+			</div>
+			<div>
+				<textarea
+					name="textarea"
+					id="textarea"
+					cols="30"
+					rows="10"
+					placeholder="textarea"
+				></textarea>
+				<label for="textarea"></label>
+			</div>
+			<input type="button" value="submit" id="submit" />
+		</form>
+	</body>
+</html>
