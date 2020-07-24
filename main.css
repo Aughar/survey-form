@@ -1,14 +1,12 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background: linear-gradient(to right, #00c6ff, #0072ff);
+	/* background: linear-gradient(to right, #00c6ff, #0072ff); */
+	background-color: #af8baf;
+	color: #26191b;
 }
 
 label {
 	font-weight: bold;
-}
-
-placeholder {
-	margin: 5rem;
 }
 
 .questions {
@@ -31,7 +29,7 @@ placeholder {
 }
 
 #survey-form {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.4);
 	text-align: left;
 	max-width: 500px;
 	margin: auto;
